@@ -1,0 +1,7 @@
+.vercel
+.env*
+!.env.example
+*.log
+theoh/dev.log
+theoh/migration_dump/
+theoh/users_migration.json
