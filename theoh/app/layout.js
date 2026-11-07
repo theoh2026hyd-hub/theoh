@@ -26,15 +26,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://theoh.in";
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "THE OH ! | Natural Oats Bowls & Healthy Meals in Hyderabad",
-    template: "%s | THE OH ! Oats Cloud Kitchen",
+    default: "Healthy oats bowls in hyderabad",
+    template: "%s | THE OH !",
   },
   description:
-    "THE OH ! is a premium oats cloud kitchen in Hyderabad crafting signature natural oats bowls, fruit bowls, protein oats, and cookie bowls. Fresh healthy food delivery to your door.",
+    "THE OH ! is a premium oats cloud kitchen in Hyderabad crafting signature healthy oats bowls, fruit bowls, protein oats, and cookie bowls. Fresh healthy food delivery to your door.",
   keywords: [
+    "healthy oats bowls in hyderabad",
     "oats bowls",
     "healthy oats bowls",
-    "natural oats bowls",
     "oats bowl hyderabad",
     "healthy food delivery hyderabad",
     "healthy breakfast delivery",
@@ -57,9 +57,9 @@ export const metadata = {
     canonical: "./",
   },
   openGraph: {
-    title: "THE OH ! | Natural Oats Bowls & Healthy Meals in Hyderabad",
+    title: "Healthy oats bowls in hyderabad",
     description:
-      "Order freshly prepared natural oats bowls, fruit bowls, protein oats, and healthy cookie bowls delivered fresh across Hyderabad.",
+      "Order freshly prepared healthy oats bowls, fruit bowls, protein oats, and cookie bowls delivered fresh across Hyderabad.",
     url: siteUrl,
     siteName: "THE OH !",
     locale: "en_IN",
@@ -75,9 +75,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "THE OH ! | Natural Oats Bowls & Healthy Meals in Hyderabad",
+    title: "Healthy oats bowls in hyderabad",
     description:
-      "Fresh, wholesome natural oats bowls, protein oats, and cookie bowls delivered across Hyderabad.",
+      "Fresh, wholesome healthy oats bowls, protein oats, and cookie bowls delivered across Hyderabad.",
     images: ["/theoh!.jpg"],
   },
   robots: {

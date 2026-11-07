@@ -5,7 +5,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://theoh.in";
 export const metadata = {
   title: "Terms of Service & Delivery Policies | THE OH ! Hyderabad",
   description:
-    "Review Terms of Service, ordering terms, refund policies, and delivery rules for THE OH ! natural oats cloud kitchen in Hyderabad.",
+    "Review Terms of Service, ordering terms, refund policies, and delivery rules for THE OH ! healthy oats cloud kitchen in Hyderabad.",
   keywords: [
     "terms of service",
     "delivery terms hyderabad",

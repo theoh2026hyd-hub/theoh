@@ -5,7 +5,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://theoh.in";
 export const metadata = {
   title: "Delivery Coverage & Area Map in Hyderabad | THE OH !",
   description:
-    "Check delivery coverage, kitchen location, and delivery charges for THE OH ! natural oats cloud kitchen in Hyderabad, Telangana.",
+    "Check delivery coverage, kitchen location, and delivery charges for THE OH ! healthy oats cloud kitchen in Hyderabad, Telangana.",
   keywords: [
     "oats bowl delivery hyderabad",
     "healthy food delivery radius hyderabad",

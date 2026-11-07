@@ -1,9 +1,9 @@
 export default function manifest() {
   return {
-    name: "THE OH ! - Natural Oats Bowls & Healthy Meals",
+    name: "THE OH ! - Healthy oats bowls in hyderabad",
     short_name: "THE OH !",
     description:
-      "Signature Premium Natural Oats Bowls, Fruit Bowls, Protein Oats & Cookie Bowls delivered fresh across Hyderabad.",
+      "Signature Premium Healthy Oats Bowls, Fruit Bowls, Protein Oats & Cookie Bowls delivered fresh across Hyderabad.",
     start_url: "/",
     display: "standalone",
     background_color: "#faf8f5",

@@ -3,23 +3,23 @@ import WhyUsClient from "./WhyUsClient";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://theoh.in";
 
 export const metadata = {
-  title: "Why Choose THE OH ! | Premium Natural Oats Bowls Hyderabad",
+  title: "Why Choose THE OH ! | Premium Healthy Oats Bowls Hyderabad",
   description:
-    "Discover why THE OH ! is Hyderabad's favourite natural oats cloud kitchen. Premium ingredients, zero synthetic processing, wholesome oat bowls & nutritious cookie bowls.",
+    "Discover why THE OH ! is Hyderabad's favourite healthy oats cloud kitchen. Premium ingredients, zero synthetic processing, wholesome oat bowls & nutritious cookie bowls.",
   keywords: [
     "why choose oats",
     "healthy oats habit",
     "premium oats hyderabad",
-    "natural oats bowls",
+    "healthy oats bowls",
     "healthy breakfast hyderabad",
   ],
   alternates: {
     canonical: `${siteUrl}/why-us`,
   },
   openGraph: {
-    title: "Why Choose THE OH ! | Premium Natural Oats Bowls Hyderabad",
+    title: "Why Choose THE OH ! | Premium Healthy Oats Bowls Hyderabad",
     description:
-      "Clean, elevated nutrition crafted with premium natural oats, fruits & nuts. Learn about THE OH ! story & standards.",
+      "Clean, elevated nutrition crafted with premium healthy oats, fruits & nuts. Learn about THE OH ! story & standards.",
     url: `${siteUrl}/why-us`,
     images: [{ url: "/why_us_premium_oats.png", width: 1200, height: 630, alt: "Why Choose THE OH !" }],
   },

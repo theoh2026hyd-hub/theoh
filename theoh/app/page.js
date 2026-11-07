@@ -3,12 +3,15 @@ import HomePageClient from "./HomePageClient";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://theoh.in";
 
 export const metadata = {
-  title: "Natural Oats Bowls & Healthy Meals in Hyderabad | THE OH !",
+  title: {
+    absolute: "Healthy oats bowls in hyderabad",
+  },
   description:
-    "Order freshly prepared natural oats bowls, fruit bowls, protein oats, and healthy cookie bowls delivered fresh across Hyderabad from THE OH ! oats cloud kitchen.",
+    "Order freshly prepared healthy oats bowls, fruit bowls, protein oats, and cookie bowls delivered fresh across Hyderabad from THE OH ! oats cloud kitchen.",
   keywords: [
-    "natural oats bowls",
-    "healthy oats bowls hyderabad",
+    "healthy oats bowls in hyderabad",
+    "healthy oats bowls",
+    "oats bowls hyderabad",
     "oats cloud kitchen",
     "protein oats bowl",
     "healthy food delivery hyderabad",
@@ -20,9 +23,9 @@ export const metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Natural Oats Bowls & Healthy Meals in Hyderabad | THE OH !",
+    title: "Healthy oats bowls in hyderabad",
     description:
-      "Signature Premium Natural Oats Bowls, Fruit Bowls, Protein Oats & Cookie Bowls delivered fresh across Hyderabad.",
+      "Signature Premium Healthy Oats Bowls, Fruit Bowls, Protein Oats & Cookie Bowls delivered fresh across Hyderabad.",
     url: siteUrl,
     siteName: "THE OH !",
     locale: "en_IN",
@@ -32,15 +35,15 @@ export const metadata = {
         url: "/theoh!.jpg",
         width: 1200,
         height: 630,
-        alt: "THE OH ! Natural Oats Bowls Hyderabad",
+        alt: "THE OH ! Healthy Oats Bowls Hyderabad",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Natural Oats Bowls & Healthy Meals in Hyderabad | THE OH !",
+    title: "Healthy oats bowls in hyderabad",
     description:
-      "Fresh, wholesome natural oats bowls, protein oats, and cookie bowls delivered across Hyderabad.",
+      "Fresh, wholesome healthy oats bowls, protein oats, and cookie bowls delivered across Hyderabad.",
     images: ["/theoh!.jpg"],
   },
 };
@@ -55,7 +58,7 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text":
-          "THE OH ! is a premium oats cloud kitchen in Hyderabad specializing in signature natural oats bowls, fruit bowls, protein oats, and healthy cookie bowls.",
+          "THE OH ! is a premium oats cloud kitchen in Hyderabad specializing in signature healthy oats bowls, fruit bowls, protein oats, and cookie bowls.",
       },
     },
     {

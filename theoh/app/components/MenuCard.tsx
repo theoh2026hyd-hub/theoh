@@ -167,7 +167,7 @@ export default function MenuCard({
           src={item.image}
           category={item.category}
           name={item.name}
-          alt={item.name ? `${item.name} - ${item.category || "Natural Oats"} Bowl | THE OH !` : "Natural Oats Bowl - THE OH ! Hyderabad"}
+          alt={item.name ? `${item.name} - ${item.category || "Healthy Oats"} Bowl | THE OH !` : "Healthy Oats Bowl - THE OH ! Hyderabad"}
           className={`card-image ${!inStock ? "card-image-dimmed" : ""}`}
           loading="lazy"
         />

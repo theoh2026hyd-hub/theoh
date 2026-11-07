@@ -56,7 +56,7 @@ export default function WhyUsClient() {
               <div className="why-us-image-card">
                 <img 
                   src="/why_us_premium_oats.png" 
-                  alt="Premium Natural Oats Ingredients - THE OH ! Hyderabad" 
+                  alt="Premium Healthy Oats Ingredients - THE OH ! Hyderabad" 
                   className="why-us-image"
                 />
                 <div className="why-us-image-caption">
